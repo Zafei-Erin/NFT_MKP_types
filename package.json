@@ -1,5 +1,5 @@
 {
-  "name": "nft_mkp_types",
+  "name": "@zafei/nft_mkp_types",
   "version": "0.0.1",
   "description": "types for nft marketplace project",
   "main": "./dist/index.js",
