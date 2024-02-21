@@ -1,0 +1,24 @@
+{
+  "name": "nft_mkp_types",
+  "version": "0.0.1",
+  "description": "types for nft marketplace project",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "lint": "tsc",
+    "release": "npm run build && npx changeset publish"
+  },
+  "author": "zafei",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3",
+    "zod": "^3.22.4"
+  }
+}
